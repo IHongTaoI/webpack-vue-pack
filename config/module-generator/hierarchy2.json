@@ -1,0 +1,15 @@
+{
+    "d_entry": {
+        "f_entry": "entry.js"
+    },
+    "d_modules": {
+        "f_index": "index.js",
+        "d_styles": {
+            "f_index": "index.scss"
+        },
+        "d_images": {
+
+        }
+    },
+    "f_index": "index.dev.jsp"
+}

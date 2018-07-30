@@ -1,0 +1,12 @@
+{
+  "name": "ht-module-generator",
+  "version": "0.1.7",
+  "description": "模块生成器",
+  "main": "index.js",
+  "scripts": {},
+  "author": "HT",
+  "license": "MIT",
+  "bin": {
+    "xmpack": "./bin/xmpack.js"
+  }
+}
