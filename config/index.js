@@ -41,7 +41,7 @@ module.exports = {
 
     // Paths
     assetsRoot: path.resolve(__dirname, "../dist/" + webpackCFG.PAGE),
-    assetsSubDirectory: "static",
+    assetsSubDirectory: "eg/" + webpackCFG.PAGE,
     assetsPublicPath: "/",
 
     /**

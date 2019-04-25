@@ -1,0 +1,281 @@
+.flex {
+  display: flex;
+}
+.juscenter {
+  justify-content: center;
+}
+
+.tshoad {
+  text-shadow: 0 0 0.1rem red;
+}
+
+.mt1rem {
+  margin-top: 0.6rem;
+}
+
+#picBox {
+  background: #252225;
+}
+
+#app {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  .head {
+    padding: 0.1rem 0 0.05rem;
+    font-family: cursive;
+    background: url('./img/header-bk.png') #000;
+    background-size: 100% 100%;
+    color: #fff;
+    .title {
+      font-size: 0.34rem;
+      font-weight: bold;
+    }
+    .down {
+      position: relative;
+      transform: scaleY(-1);
+      .opcity {
+        background-image: linear-gradient(
+          to bottom,
+          rgba(255, 255, 255, 0.7),
+          rgba(255, 255, 255, 0.2)
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+  .content {
+    margin-top: 0.02rem;
+    padding: 0.1rem;
+    .userinfo {
+      display: flex;
+      justify-content: space-around;
+      color: #fff;
+      padding-bottom: 0.2rem;
+      .l,
+      .r {
+        flex: 2;
+        text-align: left;
+        padding: 0.02rem 0.3rem 0 0;
+        .tlt {
+          font-size: 0.18rem;
+          color: #f4c224;
+          text-align: center;
+        }
+        .des {
+          font-size: 0.12rem;
+          margin-top: 0.1rem;
+          text-indent: 1em;
+        }
+      }
+      .r {
+        padding-left: 0.3rem;
+        padding-right: 0;
+        .ul {
+          margin-top: 0.1rem;
+          .item {
+            line-height: 0.18rem;
+            .iconfont {
+              font-size: 0.15rem;
+              vertical-align: middle;
+            }
+            .n {
+              vertical-align: middle;
+              margin-right: 0.03rem;
+            }
+            .v {
+              vertical-align: middle;
+              font-size: 0.12rem;
+            }
+          }
+        }
+      }
+      .ava {
+        flex: 1;
+        .img {
+          display: block;
+          min-width: 1rem;
+          height: 1.4rem;
+          border-radius: 50%;
+          border: 0.05rem solid #fff;
+        }
+      }
+      .r {
+        flex: 2;
+      }
+    }
+
+    .BoxTile {
+      .iconfont,
+      .tlt {
+        font-size: 0.2rem;
+        vertical-align: middle;
+        color: #f4c224;
+      }
+    }
+
+    .jobHope {
+      .cont {
+        padding: 0.2rem 0.3rem 0;
+        .left {
+          flex: 2;
+          display: flex;
+          align-items: flex-end;
+          .info {
+            margin-top: 0.2rem;
+            color: #fff;
+            text-align: left;
+            .infoT {
+              padding-bottom: 0.05rem;
+              padding-right: 0.2rem;
+              text-align: right;
+            }
+            .infoB {
+              position: relative;
+              border-top: 1px solid #fff;
+              padding-top: 0.05rem;
+              padding-right: 0.8rem;
+              &::before {
+                position: absolute;
+                content: '';
+                right: 0;
+                top: 0;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: #fff;
+                transform: translate(5px, -50%);
+              }
+            }
+
+            .info-tlt {
+              font-weight: 600;
+              font-size: 0.14rem;
+            }
+            .info-des {
+              font-size: 0.12rem;
+            }
+          }
+        }
+        .riglt {
+          flex: 3;
+          position: relative;
+          &::before {
+            content: '';
+            position: absolute;
+            width: 2px;
+            left: 0;
+            top: 0;
+            height: 100%;
+            background: #fff;
+          }
+          .info {
+            margin-top: 0.2rem;
+            color: #fff;
+            text-align: left;
+            .infoT {
+              padding-bottom: 0.05rem;
+              padding-left: 0.2rem;
+            }
+            .infoB {
+              position: relative;
+              border-top: 1px solid #fff;
+              padding-top: 0.05rem;
+              padding-left: 0.8rem;
+              &::before {
+                position: absolute;
+                content: '';
+                left: 0;
+                top: 0;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: #fff;
+                transform: translate(-3px, -50%);
+              }
+            }
+
+            .info-tlt {
+              font-weight: 600;
+              font-size: 0.14rem;
+            }
+            .info-des {
+              font-size: 0.12rem;
+            }
+          }
+        }
+      }
+    }
+
+    .educational {
+      margin-top: 0.6rem;
+      .cont {
+        color: #fff;
+        font-size: 0.13rem;
+      }
+    }
+    .works {
+      .cont {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 0.8rem;
+        color: #fff;
+        .logo {
+          width: 0.7rem;
+          height: 0.7rem;
+        }
+        .qrcode {
+          width: 0.6rem;
+          height: 0.6rem;
+        }
+        .info {
+          .works-tlt {
+            font-size: 0.16rem;
+          }
+          .work-des {
+            font-size: 0.12rem;
+          }
+          text-align: left;
+          padding: 0 0.5rem;
+        }
+      }
+    }
+    .skills {
+      .cont {
+        display: flex;
+        justify-content: center;
+        padding-top: 0.1rem;
+        flex-wrap: wrap;
+        width: 100%;
+        .iconfont {
+          font-size: 0.2rem;
+        }
+        .item {
+          width: 20%;
+          color: #fff;
+          font-size: 0.12rem;
+          margin: 0 0.1rem;
+        }
+      }
+    }
+    .likes {
+      .cont {
+        display: flex;
+        justify-content: center;
+        padding-top: 0.1rem;
+        flex-wrap: wrap;
+        width: 100%;
+        .iconfont {
+          font-size: 0.2rem;
+        }
+        .item {
+          width: 12%;
+          color: #fff;
+          font-size: 0.12rem;
+          margin: 0 0.1rem;
+        }
+      }
+    }
+  }
+}

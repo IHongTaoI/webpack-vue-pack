@@ -8,19 +8,22 @@
 # 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
 # 创建一个页面
-
 npm run creatView [页面命] [页面路径(如 src)]
+
+# 运行一个页面 
+npm run dev -- --env.page=[页面名]
 
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 例子
+
+``` bash
+# 创建test 页面
+npm run creatView test src
+```
+
+``` bash
+# 运行test页面
+npm run dev -- --env.page=test
+```
